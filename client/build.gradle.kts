@@ -7,6 +7,9 @@ kotlin {
     js {
         nodejs()
         browser()
+
+        // breaks build
+        useEsModules()
     }
     wasmJs {
         nodejs()
